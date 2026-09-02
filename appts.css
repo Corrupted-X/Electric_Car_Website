@@ -1,0 +1,151 @@
+/*Appointment Stylesheet*/
+
+body{
+	color:  #F8F8F8;
+    background-color: #745C97;
+	font-family: Georgia, Sans-Serif;
+}
+
+.center{
+	margin: auto;
+	width: 55%;
+}
+
+
+/****************CSS HEADER SIDEBAR********************/
+.sidebar{
+	height: 100%;
+	width: 160px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #562349;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+.sidebar a{
+	padding: 6px 8px 6px 16px;
+	font-size: 20px;
+	color: #D597CE;
+	display: block;
+}
+
+.sidebar a:hover{
+	color: #F5B0CB;
+}
+/****************CSS APPT. TABLES********************/
+
+a{
+	text-decoration: none;
+}
+
+.centerTable{
+	display: flex;
+    justify-content: center;   /* center horizontally */
+    margin-top: 80px;
+}
+
+table{
+	margin: auto;
+	border: 1px solid black;
+	background-color: black;
+}
+
+caption{
+	font-size: 1.5em;
+}
+
+th{
+	background-color: #562349;
+	color: white;
+	text-align: left;
+	padding: 1em;
+}
+
+
+td{
+	padding: 0.5em;
+}
+
+.lightRow{
+	background-color: #D597CE;
+}
+
+.darkRow{
+	background-color: #745C97;
+}
+
+/****************CSS MENU CALENDAR********************/
+.calendar{
+	margin-top: 30px;
+}
+
+.calendar caption {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.calendar th {
+    background-color: #562349;
+    border: 1px solid #562349;
+	color: #F6F6E3;
+}
+
+.calendar td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ddd;
+    vertical-align: middle;
+	color: black;
+	background-color: white;
+}
+
+.blank{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+	background-color: white; 
+}
+
+.menu-day a{
+	color: #562349;
+}
+
+.menu-day a:hover{
+	color: #745C97;
+}
+
+/****************CSS Forms********************/
+
+.centerForm {
+    margin: 80px auto;
+    width: 60%;
+    border: solid 2px black;
+    padding: 1em;
+    background-color: #562349;
+	color: #F6F6E3;
+	justify-content: center;
+}
+
+#button{
+	background-color: #D597CE;
+	margin-top: 2em;
+	border-radius: 8px;
+    padding: 1em;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#button:hover{
+	background-color: #F5B0CB;
+}
+
+input, select{
+	margin: 10px;
+}
+
+
+
