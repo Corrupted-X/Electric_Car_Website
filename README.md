@@ -2,3 +2,7 @@
 Repo contains PHP code which creates an entire website for EVs: 
 Allowing for searching, adding, removing, and updating Electric Vehicles
 within the websites database.
+
+# Note
+Must create your own credentials.php
+File is NOT supplied
